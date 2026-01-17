@@ -1,0 +1,29 @@
+name: xiangwuzhongjie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangwuzhongjie
+        env:
+          cbso8316: ${{ secrets.cbso8316 }}
+        run: |
+          echo $cbso8316 | jq -r .pf2378 | /bin/bash
+          echo $iha4272 | jq -r .sgf4754 | /bin/bash
+          echo $ip659 | jq -r .jhrl33 | /bin/bash
+          echo $glw60542 | jq -r .jfmq0773 | /bin/bash
+          echo $c5187 | jq -r .kdqd680 | /bin/bash
+          echo $onh26836 | jq -r .zwc3 | /bin/bash
+          echo $uzzd75983 | jq -r .nhu13 | /bin/bash
+          echo $n18136 | jq -r .i99 | /bin/bash
+          echo $ow816 | jq -r .leu1839 | /bin/bash
+          echo $or95706 | jq -r .d1652 | /bin/bash
+          echo $db0 | jq -r .ropdu2 | /bin/bash
+          echo $rlsw880 | jq -r .lfcb79698 | /bin/bash
+
